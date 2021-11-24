@@ -1,0 +1,57 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Tire-RTTire 3
+FileCreator = CarMaker 10.0
+
+Description:
+	Created with IPG Tire Data Set Generator - Version Date: 2020-11-18
+	Generated - not validated - Tire data
+	Based on 'BAJA_Tire.50.tdx'
+	""
+	#   Load:      32 points [ 0 N  to  7875 N ]
+	#   Slip:     128 points [ -0.15   to  0.15 ]
+	#   Alpha:    128 points [ -12 deg  to  12 deg ]
+
+
+## General ###############################################################
+Side = left
+StandStill.cLong = 0.01
+StandStill.cSide = 0.2
+StandStill.vMax = 2.0
+
+
+## Visualization #########################################################
+FLoadMax = 6300
+NomWidth = 0.1778
+AspectRatio = 0.93
+
+
+## RT-Tire ###############################################################
+muRoad = 1
+KinRollRadius = 0.28767
+NomRadius = 0.2921
+Radial.Stiffness = 366533
+Radial.Damping = 3992.7
+
+RollResist.Kind = TrqLoad
+RollResist.Factor = 0.0214
+
+LongFrc.Length = 0.05
+SideFrc.Length = 0.1
+AlignTrq.Length = 0.1
+LongFrc.Stiffness = 1.0
+SideFrc.Stiffness = 1.0
+AlignTrq.Stiffness = 1.0
+
+InclinAngle2OffsetFy = 0.0
+InclinAngle2OffsetMz = 0.0
+InclinAngle2Alpha = 0.0
+
+TurnSlip.MzMax = 0.0
+TurnSlip.cMz = 0.0
+TurnSlip.Alpha2Mz = 0.0
+
+BinFName = BAJA_Tire.50.bin
+
+
+## Additional ############################################################
+CreateArgs = -if BAJA_Tire.50.tdx -of BAJA_Tire.50
