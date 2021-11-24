@@ -1,6 +1,0 @@
-### BEGIN IPG-MOVIE-INFO
-# Scale 1.15 1.1 1.1 
-# Translate 1.95 0 0 
-# Rotate 90 0 0 1
-# Include 80_BajaNitkRacing_Refrence.obj 
-### END IPG-MOVIE-INFO
