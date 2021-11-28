@@ -1,0 +1,10 @@
+APPLICATION	CarMaker 10.0 - Car_Generic #603 (win64-10.0)
+COMPILED	fh@obelix.ipg 2021-04-01 16:39:49
+ 
+FIRST_INIT	(internal default used)	2021-11-25 22:52:22
+TIME	0.000
+SIM_END			0s	0m
+IDLE	22:52:23
+SIM_START	unknown	2021-11-25 22:52:25
+TIME	0.196
+ERROR		Not a RTTire file ('Data/Tire/80_BajaNitkRacing.tdx')

@@ -1,0 +1,454 @@
+APPLICATION	CarMaker 10.0 - Car_Generic #603 (win64-10.0)
+COMPILED	fh@obelix.ipg 2021-04-01 16:39:49
+ 
+FIRST_INIT	(internal default used)	2021-11-25 23:16:24
+TIME	0.000
+SIM_END			0s	0m
+IDLE	23:16:25
+SIM_START	100ft	2021-11-25 23:16:27
+TIME	0.036
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+TIME	0.000
+SIMULATE	100ft
+
+TIME	30.009
+SIM_END		100ft	30s	371.47m
+TIME	120.497
+SIM_START	100ft	2021-11-25 23:31:35
+TIME	0.025
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+ERROR		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+ERROR		Too many warnings
+ERROR		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+ERROR		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+ERROR		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+ERROR		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+ERROR		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+ERROR		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+ERROR		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+SIM_ABORT	100ft	0s	371.47m
+TIME	3.172
+SIM_START	100ft	2021-11-25 23:31:49
+TIME	0.026
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	80.951
+ERROR		Suspension KnC front left force element with inverse compression gradient (q0=-0.151, q1=0.000, d/dq0 spring,ddamp,buf: 0.095, -0.041, -0.041)
+SIM_ABORT	100ft	80.951s	197.138m
+TIME	83.340
+SIM_START	100ft	2021-11-25 23:32:22
+TIME	0.027
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	44.941
+ERROR		Suspension KnC front right force element with inverse compression gradient (q0=-0.155, q1=0.000, d/dq0 spring,ddamp,buf: 1.701, 1.638, 1.638)
+SIM_ABORT	100ft	44.941s	199.487m
+TIME	53.627
+SIM_START	100ft	2021-11-25 23:33:54
+TIME	0.027
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	27.134
+SIM_END		100ft	27.125s	100.01m
+SIM_START	100ft	2021-11-25 23:34:10
+TIME	0.027
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	44.941
+ERROR		Suspension KnC front right force element with inverse compression gradient (q0=-0.155, q1=0.000, d/dq0 spring,ddamp,buf: 1.701, 1.638, 1.638)
+SIM_ABORT	100ft	44.941s	199.487m
+SIM_START	100ft	2021-11-25 23:34:30
+TIME	0.027
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	35.957
+SIM_END		100ft	35.948s	150.01m
+TIME	38.398
+SIM_START	100ft	2021-11-25 23:35:00
+TIME	0.025
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	40.425
+SIM_END		100ft	40.416s	175.008m
+TIME	43.014
+SIM_START	100ft	2021-11-25 23:35:31
+TIME	0.027
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	40.651
+ERROR		Suspension KnC front right force element with inverse compression gradient (q0=-0.144, q1=0.000, d/dq0 spring,ddamp,buf: 0.163, 0.031, 0.031)
+SIM_ABORT	100ft	40.651s	176.236m
+SIM_START	100ft	2021-11-25 23:35:55
+TIME	0.025
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	51.808
+ERROR		Suspension KnC front right force element with inverse compression gradient (q0=-0.152, q1=0.000, d/dq0 spring,ddamp,buf: 0.467, 0.347, 0.347)
+SIM_ABORT	100ft	51.808s	199.176m
+TIME	60.170
+SIM_START	100ft	2021-11-25 23:37:24
+TIME	0.025
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	40.632
+ERROR		Suspension KnC front right force element with inverse compression gradient (q0=-0.144, q1=0.000, d/dq0 spring,ddamp,buf: 0.441, 0.322, 0.322)
+SIM_ABORT	100ft	40.632s	176.165m
+SIM_START	100ft	2021-11-25 23:37:43
+TIME	0.025
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	43.752
+ERROR		Suspension KnC front left force element with inverse compression gradient (q0=-0.151, q1=0.000, d/dq0 spring,ddamp,buf: 0.018, -0.122, -0.122)
+SIM_ABORT	100ft	43.752s	201.698m
+TIME	49.941
+SIM_START	100ft	2021-11-25 23:38:50
+TIME	0.026
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	43.916
+ERROR		Suspension KnC front right force element with inverse compression gradient (q0=-0.150, q1=0.000, d/dq0 spring,ddamp,buf: 0.660, 0.549, 0.549)
+SIM_ABORT	100ft	43.916s	201.604m
+TIME	52.348
+SIM_START	100ft	2021-11-25 23:40:20
+TIME	0.025
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	42.116
+SIM_END		100ft	42.107s	185.024m
+SIM_START	100ft	2021-11-25 23:40:37
+TIME	0.027
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	43.736
+SIM_END		100ft	43.727s	200.02m
+TIME	46.316
+SIM_START	100ft	2021-11-25 23:41:08
+TIME	0.025
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	43.912
+ERROR		Suspension KnC front right force element with inverse compression gradient (q0=-0.145, q1=0.000, d/dq0 spring,ddamp,buf: 0.113, -0.023, -0.023)
+SIM_ABORT	100ft	43.912s	201.57m
+TIME	49.172
+SIM_START	100ft	2021-11-25 23:42:06
+TIME	0.027
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	43.991
+ERROR		Suspension KnC front left force element with inverse compression gradient (q0=-0.158, q1=0.000, d/dq0 spring,ddamp,buf: 0.417, 0.298, 0.298)
+SIM_ABORT	100ft	43.991s	201.993m
+TIME	46.237
+SIM_START	100ft	2021-11-25 23:42:34
+TIME	0.025
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	44.076
+ERROR		Suspension KnC front left force element with inverse compression gradient (q0=-0.150, q1=0.000, d/dq0 spring,ddamp,buf: 0.492, 0.374, 0.374)
+SIM_ABORT	100ft	44.076s	201.602m
+TIME	46.462
+SIM_START	100ft	2021-11-25 23:43:03
+TIME	0.025
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	44.309
+ERROR		Suspension KnC front right force element with inverse compression gradient (q0=-0.146, q1=0.000, d/dq0 spring,ddamp,buf: 0.210, 0.078, 0.078)
+SIM_ABORT	100ft	44.309s	201.195m
+TIME	49.270
+SIM_START	100ft	2021-11-25 23:43:58
+TIME	0.027
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+WARNING		IPGDriver: LatInc too big (t=0.000, s=251.000m, LatInc=26.736deg, ay_LatInc=-0.781m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=256.000m, LatInc=23.148deg, ay_LatInc=-0.165m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=439.000m, LatInc=-25.115deg, ay_LatInc=-0.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2563.000m, LatInc=28.119deg, ay_LatInc=-1.020m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2574.000m, LatInc=25.085deg, ay_LatInc=-0.497m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=2579.000m, LatInc=27.312deg, ay_LatInc=-0.881m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3202.000m, LatInc=30.888deg, ay_LatInc=-1.502m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=3214.000m, LatInc=-34.871deg, ay_LatInc=-2.209m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4886.000m, LatInc=26.554deg, ay_LatInc=-0.750m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=4896.000m, LatInc=24.197deg, ay_LatInc=-0.345m/ss) (1) (id=200)
+WARNING		IPGDriver: LatInc too big (t=0.000, s=5537.000m, LatInc=-22.370deg, ay_LatInc=-0.032m/ss) (1) (id=200)
+TIME	0.000
+SIMULATE	100ft
+
+TIME	44.747
+ERROR		Suspension KnC front left force element with inverse compression gradient (q0=-0.438, q1=0.000, d/dq0 spring,ddamp,buf: 0.004, -0.135, -0.135)
+SIM_ABORT	100ft	44.747s	200.528m
+TIME	64.725
+SIM_START	100ft	2021-11-25 23:47:23
+TIME	0.019
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+TIME	0.000
+SIMULATE	100ft
+
+TIME	588.769
+SIM_END		100ft	588.76s	0.0224866m
+SIM_START	100ft	2021-11-25 23:47:45
+TIME	0.017
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+TIME	0.000
+SIMULATE	100ft
+
+TIME	26.375
+ERROR		Suspension KnC front left force element with inverse compression gradient (q0=-0.144, q1=0.000, d/dq0 spring,ddamp,buf: 0.597, 0.483, 0.483)
+SIM_ABORT	100ft	26.375s	181.045m
+TIME	53.062
+SIM_START	100ft	2021-11-25 23:52:14
+TIME	0.019
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+TIME	0.000
+SIMULATE	100ft
+
+TIME	26.375
+ERROR		Suspension KnC front left force element with inverse compression gradient (q0=-0.144, q1=0.000, d/dq0 spring,ddamp,buf: 0.597, 0.483, 0.483)
+SIM_ABORT	100ft	26.375s	181.045m
+TIME	40.187
+SHUTDOWN	CarMaker quick shutdown initiated
+

@@ -1,0 +1,39 @@
+APPLICATION	CarMaker 10.0 - Car_Generic #603 (win64-10.0)
+COMPILED	fh@obelix.ipg 2021-04-01 16:39:49
+ 
+FIRST_INIT	(internal default used)	2021-11-25 23:14:00
+TIME	0.000
+SIM_END			0s	0m
+IDLE	23:14:01
+SIM_START	unknown	2021-11-25 23:14:02
+TIME	0.035
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+TIME	0.000
+SIMULATE	unknown
+
+TIME	30.011
+SIM_END		unknown	30s	371.47m
+TIME	32.793
+SIM_START	unknown	2021-11-25 23:14:32
+TIME	0.042
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+TIME	0.000
+SIMULATE	unknown
+
+TIME	30.009
+SIM_END		unknown	30s	371.47m
+TIME	35.255
+SIM_START	unknown	2021-11-25 23:15:31
+TIME	0.040
+WARNING		HydBrakeSystem 'PresDistrib': build-up time can only be zero or greater than 80ms. Time is corrected to 80ms
+WARNING		PowerTrain.Engine Mapping: Engine FullLoad torque at maximum engine speed should be zero
+TIME	0.000
+SIMULATE	unknown
+
+TIME	30.009
+SIM_END		unknown	30s	371.47m
+TIME	33.105
+SHUTDOWN	CarMaker quick shutdown initiated
+

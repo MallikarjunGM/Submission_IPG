@@ -50,7 +50,7 @@ TurnSlip.MzMax = 0.0
 TurnSlip.cMz = 0.0
 TurnSlip.Alpha2Mz = 0.0
 
-BinFName = BAJA_Tire.50.bin
+BinFName = 80_BajaNitkRacing.bin
 
 
 ## Additional ############################################################

@@ -1,0 +1,1201 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Car 10
+FileCreator = CarMaker 10.0
+
+
+## Assembly ##############################################################
+
+RefPointInputSystem = 0 0 0
+Description:
+	Generated - not validated - Small Car
+	FileCreator CarMaker/Vehicle Data Set Generator 2021-10-19 14:58:52
+	driveline fourwheel drive
+	engine power 6.71 kW (9 PS) at 3600.0 rpm
+	max. torque 19.2 Nm at 2800.0 rpm
+	unloaded weight 160.0 kg
+	length x width x height 2090.9 mm x 1626.1 mm x 1667.8 mm
+	wheel base 1500.0 mm
+	track width front 1473.2 mm
+	track width rear 1422.4 mm
+	rear overhang 290.09 mm
+	tire 185/65 R15
+
+Eng.Kind = Rigid
+Eng.Joint.pos = 0.56359 -0.020595 0.51682
+Eng.Orientation = 0.0 0.0 0.0
+
+Hitch.System =
+Hitch.pos = -0.112 0.0 0.377
+Jack.fl.pos = 1.411 0.175 0.377
+Jack.fr.pos = 1.411 -0.175 0.377
+Jack.rl.pos = 0.674 0.254 0.377
+Jack.rr.pos = 0.674 -0.254 0.377
+Virtual.PoA = 0.0 0.0 0.0
+
+WheelCarrier.fl.mass = 3
+WheelCarrier.fl.I = 2.66 0.009 28.549 -0.0 -0.0 -0.0
+WheelCarrier.fl.pos = 1.7512934 0.785 0.2894948
+WheelCarrier.fr.mass = 3
+WheelCarrier.fr.I = 2.66 0.009 28.549 -0.0 -0.0 -0.0
+WheelCarrier.fr.pos = 1.7512934 -0.785 0.2894948
+WheelCarrier.rl.mass = 2
+WheelCarrier.rl.I = 2.66 0.009 4.85 -0.0 -0.0 -0.0
+WheelCarrier.rl.pos = 0.29 0.723 0.2824948
+WheelCarrier.rr.mass = 2
+WheelCarrier.rr.I = 2.66 0.009 4.85 -0.0 -0.0 -0.0
+WheelCarrier.rr.pos = 0.29 -0.723 0.2824948
+Wheel.fl.mass = 4.5
+Wheel.fl.I = 0.06 0.06 0.091
+Wheel.fl.pos = 1.7512934 0.785 0.2894948
+Wheel.fr.mass = 4.5
+Wheel.fr.I = 0.06 0.06 0.091
+Wheel.fr.pos = 1.7512934 -0.785 0.2894948
+Wheel.rl.mass = 4.5
+Wheel.rl.I = 0.06 0.06 0.091
+Wheel.rl.pos = 0.29 0.723 0.2824948
+Wheel.rr.mass = 4.5
+Wheel.rr.I = 0.06 0.06 0.091
+Wheel.rr.pos = 0.29 -0.723 0.2824948
+
+PowerTrain.Engine.Bdy.pos = 0.56359 -0.020595 0.71682
+PowerTrain.Engine.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.Engine.Bdy.Mounting = FrEng
+PowerTrain.Engine.Bdy.RefFr = FrD
+PowerTrain.Engine.Tank.Bdy.pos = .54 .037 1.270
+PowerTrain.Engine.Tank.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.Engine.Tank.Bdy.Mounting = Fr1A
+PowerTrain.Engine.Tank.Bdy.RefFr = FrD
+PowerTrain.GearBox.Bdy.pos = 0.37902 -0.1141 0.47591
+PowerTrain.GearBox.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.GearBox.Bdy.Mounting = FrEng
+PowerTrain.GearBox.Bdy.RefFr = FrD
+PowerTrain.GearBoxM.Bdy.pos = 0.0 0.0 0.0
+PowerTrain.GearBoxM.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.GearBoxM.Bdy.Mounting = Fr1A
+PowerTrain.GearBoxM.Bdy.RefFr = FrD
+PowerTrain.GearBoxM1.Bdy.pos = 0.0 0.0 0.0
+PowerTrain.GearBoxM1.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.GearBoxM1.Bdy.Mounting = Fr1A
+PowerTrain.GearBoxM1.Bdy.RefFr = FrD
+PowerTrain.GearBoxM2.Bdy.pos = 0.0 0.0 0.0
+PowerTrain.GearBoxM2.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.GearBoxM2.Bdy.Mounting = Fr1A
+PowerTrain.GearBoxM2.Bdy.RefFr = FrD
+PowerTrain.GearBoxM3.Bdy.pos = 0.0 0.0 0.0
+PowerTrain.GearBoxM3.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.GearBoxM3.Bdy.Mounting = Fr1A
+PowerTrain.GearBoxM3.Bdy.RefFr = FrD
+PowerTrain.Motor.Bdy.pos = 0.0 0.0 0.0
+PowerTrain.Motor.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.Motor.Bdy.Mounting = Fr1A
+PowerTrain.Motor.Bdy.RefFr = FrD
+PowerTrain.Motor1.Bdy.pos = 0.0 0.0 0.0
+PowerTrain.Motor1.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.Motor1.Bdy.Mounting = Fr1A
+PowerTrain.Motor1.Bdy.RefFr = FrD
+PowerTrain.Motor2.Bdy.pos = 0.0 0.0 0.0
+PowerTrain.Motor2.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.Motor2.Bdy.Mounting = Fr1A
+PowerTrain.Motor2.Bdy.RefFr = FrD
+PowerTrain.Motor3.Bdy.pos = 0.0 0.0 0.0
+PowerTrain.Motor3.Bdy.Ori = 0.0 0.0 0.0
+PowerTrain.Motor3.Bdy.Mounting = Fr1A
+PowerTrain.Motor3.Bdy.RefFr = FrD
+PowerTrain.PowerSupply.BattLV.Bdy.0.pos = 0.0 0.0 0.0
+PowerTrain.PowerSupply.BattLV.Bdy.0.Ori = 0.0 0.0 0.0
+PowerTrain.PowerSupply.BattLV.Bdy.0.Mounting = Fr1A
+PowerTrain.PowerSupply.BattLV.Bdy.0.RefFr = FrD
+PowerTrain.PowerSupply.BattLV.Bdy.1.pos = 0.0 0.0 0.0
+PowerTrain.PowerSupply.BattLV.Bdy.1.Ori = 0.0 0.0 0.0
+PowerTrain.PowerSupply.BattLV.Bdy.1.Mounting = Fr1A
+PowerTrain.PowerSupply.BattLV.Bdy.1.RefFr = FrD
+PowerTrain.PowerSupply.BattHV.Bdy.0.pos = 0.0 0.0 0.0
+PowerTrain.PowerSupply.BattHV.Bdy.0.Ori = 0.0 0.0 0.0
+PowerTrain.PowerSupply.BattHV.Bdy.0.Mounting = Fr1A
+PowerTrain.PowerSupply.BattHV.Bdy.0.RefFr = FrD
+PowerTrain.PowerSupply.BattHV.Bdy.1.pos = 0.0 0.0 0.0
+PowerTrain.PowerSupply.BattHV.Bdy.1.Ori = 0.0 0.0 0.0
+PowerTrain.PowerSupply.BattHV.Bdy.1.Mounting = Fr1A
+PowerTrain.PowerSupply.BattHV.Bdy.1.RefFr = FrD
+
+TrimLoad.0.mass = 4.8
+TrimLoad.0.I = 0.2872 0.8266 0.8777
+TrimLoad.0.pos = 0.5158 0.17481 0.60436
+TrimLoad.0.mounted = Fr1A
+TrimLoad.0.RefFr = FrD
+TrimLoad.0.name = CVT
+TrimLoad.1.mass = 75
+TrimLoad.1.I = 4.76 3.231 2.855
+TrimLoad.1.pos = 1.1 0 .5
+TrimLoad.1.mounted = Fr1A
+TrimLoad.1.RefFr = FrD
+TrimLoad.1.name = Driver
+TrimLoad.2.mass = 0.402
+TrimLoad.2.I = 0.06914 0.0397 0.06914
+TrimLoad.2.pos = .378 0 .5638
+TrimLoad.2.mounted = Fr1A
+TrimLoad.2.RefFr = FrD
+TrimLoad.2.name = Jackshaft
+TrimLoad.3.mass = 3.22
+TrimLoad.3.I = .03834 .02609 .03841
+TrimLoad.3.pos = 1.766 0 .532
+TrimLoad.3.mounted = Fr1A
+TrimLoad.3.RefFr = FrD
+TrimLoad.3.name = Front Diff
+TrimLoad.4.mass = 1.538
+TrimLoad.4.I = .0321 .05198 .0245
+TrimLoad.4.pos = .2344 0.0 .476
+TrimLoad.4.mounted = Fr1A
+TrimLoad.4.RefFr = FrD
+TrimLoad.4.name = Rear Diff
+TrimLoad.5.mass = .96
+TrimLoad.5.I = 0.0484 0.0484 0.02336
+TrimLoad.5.pos = 0.365 .0135 .465
+TrimLoad.5.mounted = Fr1A
+TrimLoad.5.RefFr = FrD
+TrimLoad.5.name = Transfer Case
+
+Assembly.Comment:
+
+
+## Body ##################################################################
+
+VehicleModel = Vhcl_2Axle
+nAxle = 2
+VehicleModel.Kind = RigidBody
+VehicleModel.Mode = BodyA
+Body.mass = 64.76
+Body.I = 25.53 .3 69.54 -0.0 -0.0 -0.0
+Body.pos = 0.9 0 .627
+Flex.JointFr1Fr1B.pos = 1.174 0.0 0.75
+Flex.JointFr1Fr1B.Kind = Coeff
+Flex.JointFr1Fr1B.k.x = 1726.4
+Flex.JointFr1Fr1B.k.y = 2766.1
+Flex.JointFr1Fr1B.k.x.Amplify = 1.0
+Flex.JointFr1Fr1B.k.y.Amplify = 1.0
+Flex.JointFr1Fr1B.d.x = 86.319
+Flex.JointFr1Fr1B.d.y = 138.31
+Flex.JointFr1Fr1B.d.x.Amplify = 1.0
+Flex.JointFr1Fr1B.d.y.Amplify = 1.0
+
+Movie.Skin.FName = 80_BajaNitkRacing.obj
+Picture.PicFName = 80_BajaNitkRacing.png
+Vehicle.OuterSkin = 0 0.803 0.301 2.084 -0.803 1.59
+
+Aero.Kind = Coeff6x1 1
+Aero.Marker.pos = 4.28 0.0 0.6
+Aero.pos = 0.983 0.0 0.834
+Aero.Ax = 2.319
+Aero.lReference = 2.091
+Aero.Crosswind.Kind = Step
+Aero.Coeff:
+	-180.0 -0.7 -0.0 0.149 0.0 0.002 0.0
+	-160.0 -0.846 -0.308 0.185 -0.057 -0.155 0.052
+	-140.0 -0.754 -0.633 0.195 -0.22 -0.262 0.086
+	-120.0 -0.473 -0.819 0.181 -0.384 -0.222 0.073
+	-100.0 -0.138 -0.782 0.147 -0.417 -0.074 0.024
+	-90.0 0.0 -0.682 0.125 -0.369 0.0 -0.0
+	-80.0 0.135 -0.765 0.147 -0.408 0.072 -0.024
+	-70.0 0.289 -0.794 0.167 -0.404 0.147 -0.048
+	-60.0 0.443 -0.767 0.181 -0.36 0.208 -0.068
+	-50.0 0.578 -0.688 0.191 -0.285 0.24 -0.079
+	-40.0 0.677 -0.568 0.195 -0.197 0.235 -0.078
+	-30.0 0.728 -0.42 0.193 -0.113 0.196 -0.065
+	-25.0 0.734 -0.342 0.19 -0.078 0.167 -0.055
+	-20.0 0.727 -0.265 0.185 -0.049 0.134 -0.044
+	-15.0 0.707 -0.189 0.178 -0.026 0.098 -0.033
+	-10.0 0.675 -0.119 0.17 -0.011 0.062 -0.021
+	-5.0 0.631 -0.055 0.16 -0.002 0.028 -0.01
+	0.0 0.578 0.0 0.149 -0.0 -0.002 0.0
+	5.0 0.631 0.055 0.16 0.002 0.028 0.01
+	10.0 0.675 0.119 0.17 0.011 0.062 0.021
+	15.0 0.707 0.189 0.178 0.026 0.098 0.033
+	20.0 0.727 0.265 0.185 0.049 0.134 0.044
+	25.0 0.734 0.342 0.19 0.078 0.167 0.055
+	30.0 0.728 0.42 0.193 0.113 0.196 0.065
+	40.0 0.677 0.568 0.195 0.197 0.235 0.078
+	50.0 0.578 0.688 0.191 0.285 0.24 0.079
+	60.0 0.443 0.767 0.181 0.36 0.208 0.068
+	70.0 0.289 0.794 0.167 0.404 0.147 0.048
+	80.0 0.135 0.765 0.147 0.408 0.072 0.024
+	90.0 0.0 0.682 0.125 0.369 0.0 0.0
+	100.0 -0.138 0.782 0.147 0.417 -0.074 -0.024
+	120.0 -0.473 0.819 0.181 0.384 -0.222 -0.073
+	140.0 -0.754 0.633 0.195 0.22 -0.262 -0.086
+	160.0 -0.846 0.308 0.185 0.057 -0.155 -0.052
+	180.0 -0.7 0.0 0.149 -0.0 0.002 -0.0
+
+Vhclbody.Comment:
+
+
+## Suspensions ###########################################################
+SuspF.Spring.Kind = Hookean 1
+SuspF.Spring.Amplify = 1
+SuspF.Spring = 12726
+SuspF.Parasitic.Stiffness.Kind =
+SuspF.Parasitic.Friction.Kind =
+SuspF.Damper.Kind = Newtonian 1
+SuspF.Damp_Push.Amplify = 1
+SuspF.Damp_Push = 292.89
+SuspF.Damp_Pull.Amplify = 1
+SuspF.Damp_Pull = 292.89
+SuspF.Buffer.Kind = Hookean 1
+SuspF.Buf_Push.tz0 = 0.022
+SuspF.Buf_Push.Amplify = 0
+SuspF.Buf_Push:
+	0.0 0.0
+	0.005 3.066
+	0.01 8.215
+	0.015 16.509
+	0.02 29.491
+	0.025 49.387
+	0.03 79.398
+	0.035 124.1
+	0.04 190.01
+	0.045 286.38
+	0.05 426.31
+	0.055 628.25
+	0.06 918.21
+SuspF.Buf_Pull.tz0 = -0.071
+SuspF.Buf_Pull.Amplify = 0
+SuspF.Buf_Pull:
+	0.0 0.0
+	0.005 16.509
+	0.01 79.398
+	0.015 286.38
+	0.02 918.21
+SuspF.Stabi.Kind = Hookean 1
+SuspF.Stabi.Amplify = 0
+SuspF.Stabi = 1206.9
+SuspF.Kin.N = 1
+SuspF.Com.N = 0
+SuspF.Kin.0.FName = 80_BajaNitkRacing.skc
+SuspF.WhlBearing.On = 0
+SuspR.Spring.Kind = Hookean 1
+SuspR.Spring.Amplify = 1
+SuspR.Spring = 19577
+SuspR.Parasitic.Stiffness.Kind =
+SuspR.Parasitic.Friction.Kind =
+SuspR.Damper.Kind = Newtonian 1
+SuspR.Damp_Push.Amplify = 1
+SuspR.Damp_Push = 438.527
+SuspR.Damp_Pull.Amplify = 1
+SuspR.Damp_Pull = 438.527
+SuspR.Buffer.Kind = Hookean 1
+SuspR.Buf_Push.tz0 = 0.037
+SuspR.Buf_Push.Amplify = 0
+SuspR.Buf_Push:
+	0.0 0.0
+	0.005 1.713
+	0.01 4.381
+	0.015 8.402
+	0.02 14.325
+	0.025 22.895
+	0.03 35.13
+	0.035 52.405
+	0.04 76.58
+	0.045 110.16
+	0.05 156.5
+	0.055 220.12
+	0.06 307.04
+	0.065 425.31
+	0.07 585.65
+	0.075 802.33
+	0.08 1094.3
+	0.085 1486.6
+	0.09 2012.7
+	0.095 2716.5
+SuspR.Buf_Pull.tz0 = -0.082
+SuspR.Buf_Pull.Amplify = 0
+SuspR.Buf_Pull:
+	0.0 0.0
+	0.005 8.402
+	0.01 35.13
+	0.015 110.16
+	0.02 307.04
+	0.025 802.33
+SuspR.Stabi.Kind = Hookean 1
+SuspR.Stabi.Amplify = 0
+SuspR.Stabi = 381.45
+SuspR.Kin.N = 1
+SuspR.Com.N = 0
+SuspR.Kin.0.Kind = Linear2D 1
+SuspR.Kin.0.ValidSide = left+right
+SuspR.Kin.0.InputSide = left
+SuspR.Kin.0.L.tx = 0.0 0 0.0
+SuspR.Kin.0.L.ty = 0.0 0.1867 0.0
+SuspR.Kin.0.L.tz = 0.0 1 0.0
+SuspR.Kin.0.L.rx = 0 0 0
+SuspR.Kin.0.L.ry = 0 0 0
+SuspR.Kin.0.L.rz = 0 0 0
+SuspR.Kin.0.L.lSpring = 0.0 -0.5074 0.0
+SuspR.Kin.0.L.lDamp = 0.0 -0.5074 0.0
+SuspR.Kin.0.L.lBuf = 0.0 0 0
+SuspR.Kin.0.L.lStabi = 0 0 0
+SuspR.WhlBearing.On = 0
+SuspExtFrcs.Kind =
+SuspControl.Kind =
+Susp.Comment:
+
+
+## Steering ##############################################################
+Steering.Kind = GenTorque 1
+Steering.Comment:
+Steering.Rack2StWhl = 28.93
+Steering.Wheel.I = 0.0009436
+Steering.Wheel.d = 0.5
+Steering.Rack.mass = 1.5
+Steering.Rack.d = 20
+Steering.Rack.travel = 0.033
+Steering.Amplify = 1
+
+
+## Tires #################################################################
+Tire.0 = BAJA_Tire.50
+Tire.1 = BAJA_Tire.50
+Tire.2 = BAJA_Tire.50
+Tire.3 = BAJA_Tire.50
+AxleR.TwinTiresOn = 0
+Tires.Comment:
+
+
+## Brake #################################################################
+Brake.Kind = Hyd 1
+Brake.Torque.Amplify = 1 1 1 1
+Brake.Control.Kind = HydBasic 1
+Brake.Control.Mode = NoController
+Brake.System.Kind = PresDistrib 1
+Brake.System.pMC_based_on = PedalForce
+Brake.System.Pedal2PedalFrc = 500
+Brake.System.PedalForce2pMC = 4
+Brake.System.tResp = 0.005
+Brake.System.tBuildUp = 0.00001
+Brake.System.pWB2Trq = 11.146 11.146 4.6016 4.6016
+Brake.System.Park.Torque_max = 0.0 0.0 177.74 177.74
+Brake.Comment:
+
+
+## Powertrain ############################################################
+PowerTrain.Kind = Generic 1
+PowerTrain.Comment:
+PowerTrain.OSRate = 5
+
+PowerTrain.Engine.Kind = Mapping 1
+PowerTrain.Engine.I = 0.008
+PowerTrain.Engine.Crankshaft.Orientation = x-axis
+PowerTrain.Engine.tBuildUp = 0.0
+PowerTrain.Engine.Mapping.Kind = Linear2D
+PowerTrain.Engine.TrqKl15Off = -80.0
+PowerTrain.Engine.rotvOff = 500.0
+PowerTrain.Engine.nIdle = 1700
+PowerTrain.Engine.Mapping.Amplify = 1
+PowerTrain.Engine.Mapping.Data:
+	2000 0 -5
+	2000 0.1 2.790882
+	2000 0.2 5.538286
+	2000 0.3 8.573615
+	2000 0.4 11.32875
+	2000 0.5 13.53157
+	2000 0.6 15.15487
+	2000 0.7 16.29019
+	2000 0.8 17.05812
+	2000 0.9 17.56657
+	2000 1 17.89866
+	2200 0 -5
+	2200 0.1 2.249091
+	2200 0.2 4.850923
+	2200 0.3 7.91928
+	2200 0.4 10.82471
+	2200 0.5 13.21184
+	2200 0.6 15.00199
+	2200 0.7 16.26811
+	2200 0.8 17.13067
+	2200 0.9 17.70438
+	2200 1 18.08019
+	2400 0 -5
+	2400 0.1 1.798712
+	2400 0.2 4.223079
+	2400 0.3 7.277604
+	2400 0.4 10.2968
+	2400 0.5 12.84705
+	2400 0.6 14.79384
+	2400 0.7 16.18652
+	2400 0.8 17.14224
+	2400 0.9 17.78089
+	2400 1 18.20047
+	2600 0 -5
+	2600 0.1 1.422619
+	2600 0.2 3.641061
+	2600 0.3 6.629511
+	2600 0.4 9.714745
+	2600 0.5 12.39504
+	2600 0.6 14.47838
+	2600 0.7 15.98611
+	2600 0.8 17.02845
+	2600 0.9 17.7283
+	2600 1 18.18948
+	2800 0 -5
+	2800 0.1 1.115455
+	2800 0.2 3.116351
+	2800 0.3 6.000201
+	2800 0.4 9.111479
+	2800 0.5 11.89246
+	2800 0.6 14.09402
+	2800 0.7 15.70612
+	2800 0.8 16.82904
+	2800 0.9 17.58661
+	2800 1 18.08737
+	3000 0 -5
+	3000 0.1 0.885573
+	3000 0.2 2.68402
+	3000 0.3 5.443237
+	3000 0.4 8.543987
+	3000 0.5 11.38971
+	3000 0.6 13.68116
+	3000 0.7 15.37747
+	3000 0.8 16.56732
+	3000 0.9 17.37364
+	3000 1 17.90814
+	3200 0 -5
+	3200 0.1 0.681715
+	3200 0.2 2.260715
+	3200 0.3 4.855545
+	3200 0.4 7.905546
+	3200 0.5 10.78739
+	3200 0.6 13.15187
+	3200 0.7 14.92345
+	3200 0.8 16.17571
+	3200 0.9 17.02852
+	3200 1 17.59562
+	3400 0 -5
+	3400 0.1 0.519403
+	3400 0.2 1.886793
+	3400 0.3 4.2949
+	3400 0.4 7.256697
+	3400 0.5 10.13875
+	3400 0.6 12.54869
+	3400 0.7 14.37646
+	3400 0.8 15.67856
+	3400 0.9 16.56975
+	3400 1 17.16426
+PowerTrain.Engine.FuelConsume = 1
+PowerTrain.Engine.FuelMap.Kind = Specific
+PowerTrain.Engine.FuelMap.Amplify = 1.0
+PowerTrain.Engine.FuelMap.Data:
+	500.0 12.0 600.0
+	1000.0 10.0 600.0
+	1000.0 30.0 500.0
+	1000.0 50.0 400.0
+	1000.0 68.0 360.0
+	1000.0 95.0 300.0
+	1000.0 120.0 270.0
+	1500.0 5.0 600.0
+	1500.0 20.0 500.0
+	1500.0 40.0 400.0
+	1500.0 60.0 360.0
+	1500.0 80.0 300.0
+	1500.0 100.0 270.0
+	1500.0 120.0 260.0
+	1500.0 140.0 260.0
+	2000.0 4.0 600.0
+	2000.0 18.0 500.0
+	2000.0 34.0 400.0
+	2000.0 52.0 360.0
+	2000.0 70.0 300.0
+	2000.0 90.0 270.0
+	2000.0 105.0 260.0
+	2000.0 120.0 250.0
+	2000.0 135.0 250.0
+	2000.0 150.0 260.0
+	2500.0 3.0 600.0
+	2500.0 16.0 500.0
+	2500.0 30.0 400.0
+	2500.0 48.0 360.0
+	2500.0 68.0 300.0
+	2500.0 85.0 270.0
+	2500.0 98.0 260.0
+	2500.0 110.0 250.0
+	2500.0 125.0 245.0
+	2500.0 140.0 245.0
+	2500.0 150.0 250.0
+	2500.0 160.0 260.0
+	3000.0 3.0 600.0
+	3000.0 15.0 500.0
+	3000.0 28.0 400.0
+	3000.0 48.0 360.0
+	3000.0 68.0 300.0
+	3000.0 85.0 270.0
+	3000.0 100.0 260.0
+	3000.0 115.0 250.0
+	3000.0 125.0 245.0
+	3000.0 140.0 245.0
+	3000.0 153.0 250.0
+	3000.0 166.0 260.0
+	3500.0 4.0 600.0
+	3500.0 15.0 500.0
+	3500.0 28.0 400.0
+	3500.0 50.0 360.0
+	3500.0 70.0 300.0
+	3500.0 90.0 270.0
+	3500.0 105.0 260.0
+	3500.0 120.0 250.0
+	3500.0 135.0 245.0
+	3500.0 150.0 250.0
+	3500.0 160.0 260.0
+	3500.0 170.0 270.0
+	4000.0 5.0 600.0
+	4000.0 16.0 500.0
+	4000.0 30.0 400.0
+	4000.0 55.0 360.0
+	4000.0 75.0 300.0
+	4000.0 95.0 270.0
+	4000.0 110.0 260.0
+	4000.0 130.0 250.0
+	4000.0 145.0 250.0
+	4000.0 158.0 260.0
+	4000.0 170.0 270.0
+	4500.0 6.0 600.0
+	4500.0 20.0 500.0
+	4500.0 35.0 400.0
+	4500.0 60.0 360.0
+	4500.0 85.0 300.0
+	4500.0 105.0 270.0
+	4500.0 125.0 260.0
+	4500.0 145.0 260.0
+	4500.0 165.0 270.0
+	4500.0 182.0 300.0
+	5000.0 10.0 600.0
+	5000.0 25.0 500.0
+	5000.0 40.0 400.0
+	5000.0 68.0 360.0
+	5000.0 92.0 300.0
+	5000.0 115.0 270.0
+	5000.0 135.0 260.0
+	5000.0 160.0 270.0
+	5000.0 180.0 300.0
+	5500.0 12.0 600.0
+	5500.0 30.0 500.0
+	5500.0 48.0 400.0
+	5500.0 77.0 360.0
+	5500.0 105.0 300.0
+	5500.0 128.0 270.0
+	5500.0 155.0 270.0
+	5500.0 175.0 300.0
+	6000.0 15.0 600.0
+	6000.0 35.0 500.0
+	6000.0 55.0 400.0
+	6000.0 88.0 360.0
+	6000.0 115.0 300.0
+	6000.0 140.0 270.0
+	6000.0 168.0 300.0
+	6500.0 18.0 600.0
+	6500.0 38.0 500.0
+	6500.0 65.0 400.0
+	6500.0 98.0 360.0
+	6500.0 130.0 300.0
+	6500.0 150.0 300.0
+	7000.0 20.0 600.0
+	7000.0 42.0 500.0
+	7000.0 72.0 400.0
+	7000.0 108.0 360.0
+	7000.0 130.0 360.0
+	7500.0 22.0 600.0
+	7500.0 45.0 500.0
+PowerTrain.Engine.PwrCorr.Active = 0
+PowerTrain.Engine.Turbo.Active = 0
+PowerTrain.Engine.IMP.Active = 0
+PowerTrain.Engine.Bdy.mass = 27
+PowerTrain.Engine.Bdy.I = .4191184 .46111 .46079
+PowerTrain.Clutch.Kind = Manual 1
+PowerTrain.Clutch.I_in = 0.00001
+PowerTrain.Clutch.I_out = 0.00001
+PowerTrain.Clutch.ConnectPos = .01
+PowerTrain.Clutch.DisconnectPos = .99
+PowerTrain.Clutch.Trq_max = 72.96
+PowerTrain.Clutch.slope = 12
+PowerTrain.Clutch.c.Kind = Linear
+PowerTrain.Clutch.c = 1487.714
+PowerTrain.GearBox.Kind = CVT 1
+PowerTrain.GearBox.I_in = .00397
+PowerTrain.GearBox.I_out = .0001
+PowerTrain.GearBox.Ratio_min = .85
+PowerTrain.GearBox.Ratio_max = 3.8
+PowerTrain.GearBox.CVT.tBuildUp = 2.5
+PowerTrain.GearBox.LossKind = Linear2D
+PowerTrain.GearBox.iForwardGears = 0.8500 1.0467 1.2433 1.4400 1.6367 1.8333 2.0300 2.2267 2.4233 2.6200 2.8167 3.0133 3.2100 3.4067 3.6033 3.8000
+PowerTrain.GearBox.1.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.2.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.3.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.4.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.5.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.6.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.7.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.8.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.9.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.10.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.11.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.12.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.13.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.14.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.15.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.16.TrqLossForwardGears:
+	-50.0	 500.0	 3.52
+	-50.0	1000.0	 3.20
+	-50.0	7000.0	 6.83
+	0.0	 500.0	 2.73
+	0.0	1000.0	 2.00
+	0.0	7000.0	 5.95
+	5.0	 500.0	 2.80
+	5.0	1000.0	 2.59
+	5.0	7000.0	 6.02
+	10.0	 500.0	 2.88
+	10.0	1000.0	 2.66
+	10.0	7000.0	 6.09
+	100.0	 500.0	 4.15
+	100.0	1000.0	 3.94
+	100.0	7000.0	 7.37
+	200.0	 500.0	 5.57
+	200.0	1000.0	 5.36
+	200.0	7000.0	 8.79
+	400.0	 500.0	 9.83
+	400.0	1000.0	 9.62
+	400.0	7000.0	13.05
+	800.0	 500.0	14.09
+	800.0	1000.0	13.88
+	800.0	7000.0	17.31
+PowerTrain.GearBox.Bdy.mass = 1.36
+PowerTrain.GearBox.Bdy.I = 0.002973 0.00543 0.002973
+
+PowerTrain.Engine.Tank.Bdy.mass = 3
+PowerTrain.Engine.Tank.Bdy.I = .0011 .0011 .001497
+
+PowerTrain.DL.Kind = Gen4WD 1
+PowerTrain.DL.FlexShaft = 0
+
+PowerTrain.DL.FDiff.Eta = 1.0
+PowerTrain.DL.FDiff.i = 9
+PowerTrain.DL.FDiff.I_in = 0.0028
+PowerTrain.DL.FDiff.I_out = 0.0021
+PowerTrain.DL.FDiff.I_Cage =
+PowerTrain.DL.FDiff.Cpl.Mounting = left2right
+PowerTrain.DL.FDiff.Cpl.k = 10
+PowerTrain.DL.FDiff.Cpl.Kind = TrqSensing 1
+PowerTrain.DL.FDiff.Cpl.WithSlip = 0
+PowerTrain.DL.FDiff.Cpl.TrqBias_Driven = 10
+PowerTrain.DL.FDiff.Cpl.TrqBias_Dragged = 10
+PowerTrain.DL.RDiff.Eta = 1.0
+PowerTrain.DL.RDiff.i = 9
+PowerTrain.DL.RDiff.I_in = 0.0005
+PowerTrain.DL.RDiff.I_out = 0.0021
+PowerTrain.DL.RDiff.I_Cage =
+PowerTrain.DL.RDiff.Cpl.Mounting = left2right
+PowerTrain.DL.RDiff.Cpl.k = 10
+PowerTrain.DL.RDiff.Cpl.Kind = Locked 1
+PowerTrain.DL.CDiff.i_in2cent = 1
+PowerTrain.DL.CDiff.GearNo = 1
+PowerTrain.DL.CDiff.Eta = 1.0
+PowerTrain.DL.CDiff.I_in = 0.0001
+PowerTrain.DL.CDiff.I_out_front = 0.0028
+PowerTrain.DL.CDiff.I_out_rear = 0.001
+PowerTrain.DL.CDiff.I_out_Cage =
+PowerTrain.DL.CDiff.TrqRatio_front = 0.5
+PowerTrain.DL.CDiff.Cpl.Mounting = front2rear
+PowerTrain.DL.CDiff.Cpl.k = 10
+PowerTrain.DL.CDiff.Cpl.Kind = Locked 1
+PowerTrain.DL.TrqExt2DiffOn = 0
+PowerTrain.DL.TrqExt2WheelOn = 0
+PowerTrain.MotorISG.Kind = Starter 1
+PowerTrain.MotorISG.I = 0.001
+PowerTrain.MotorISG.Ratio = 4.0
+PowerTrain.MotorISG.VoltageLevel = LV
+PowerTrain.MotorISG.Pwr_max = 2.0
+PowerTrain.MotorISG.Trq_max = 50.0
+PowerTrain.MotorISG.rotv_max = 7000.0
+PowerTrain.Control.Kind = Generic 1
+PowerTrain.ControlOSM.Kind = Generic 1
+PowerTrain.Control.StartEngineWithSST = 0
+
+PowerTrain.Control.GasInterpret.Active = 0
+
+PowerTrain.ECU.Kind = Basic 1
+PowerTrain.ECU.ISCtrl.Active = 1
+PowerTrain.ECU.ISCtrl.rotvOff = 1000.0
+PowerTrain.ECU.ISCtrl.LoadMax = 1.0
+PowerTrain.ECU.ISCtrl.p = 0.1
+PowerTrain.ECU.ISCtrl.i = 50.0
+PowerTrain.ECU.TrqCtrl.p = 0.002
+PowerTrain.ECU.TrqCtrl.i = 5.0
+PowerTrain.ECU.RotvCtrl.p = 0.1
+PowerTrain.ECU.RotvCtrl.i = 50.0
+PowerTrain.ECU.nFuelCutOff = 1500.0
+PowerTrain.TCU.Kind = CVT 1
+PowerTrain.TCU.ControlMode = SingleTrack
+PowerTrain.TCU.rotv_min = 800
+PowerTrain.TCU.ClutchCtrl.Creep.Active = 0
+PowerTrain.TCU.ClutchCtrl.Creep.Brake_lim = 0.0
+PowerTrain.MCU.Kind = Basic 1
+PowerTrain.MCU.MotorISG.TrqCtrl.p = 0.05
+PowerTrain.MCU.MotorISG.TrqCtrl.i = 100.0
+PowerTrain.MCU.MotorISG.RotvCtrl.p = 0.05
+PowerTrain.MCU.MotorISG.RotvCtrl.i = 0.025
+PowerTrain.BCU.Kind =
+PowerTrain.PowerSupply.Kind =
+PowerTrain.Engine.FuelLevel = 80.0
+PowerTrain.Engine.TankVolume = 50.0
+PowerTrain.Engine.FuelDensity = 0.75
+PowerTrain.Engine.FuelHeatValue = 11.3
+
+
+## Sensor Parametrizations ###############################################
+Sensor.Param.N = 0
+Sensor.Comment:
+
+
+## Sensor Cluster ########################################################
+SensorCluster.N = 0
+
+
+## Sensor Instances ######################################################
+Sensor.N = 0
+
+
+## Vehicle Control #######################################################
+VehicleControl.0.Kind =
+
+VehicleControl.1.Kind =
+
+VehicleControl.2.Kind =
+
+VehicleControl.3.Kind =
+
+VehicleControl.4.Kind =
+
+VehicleControl.5.Kind =
+
+VehicleControl.6.Kind =
+
+VehicleControl.7.Kind =
+
+VehicleControl.8.Kind =
+
+VehicleControl.9.Kind =
+
+VehicleControl.Comment:
+
+
+## Show ##################################################################
+Crypto.Show:
+	Picture.PicFName
+	Movie.Skin.FName
+	Vehicle.OuterSkin
+	nAxle
+	Steering.Kind
+	Steering.FName
+	Brake.Kind
+	Brake.FName
+	PowerTrain.Kind
+	PowerTrain.FName
+	Sensor.FSpace.N
+	Sensor.RadarRSILeg.N
+	Sensor.RadarRSI.N
+	Sensor.USonicRSI.N
+	Sensor.LidarRSI.N
+	CM4SL.ActivateFcn
+	CM4SL.StartFcn
+	CM4SL.StopFcn
+	Sensor.N
+	SensorCluster.N
+Crypto.AllowAccess:
+	GenericPlugin
+
+Additional.Comment:
+
+
+## Vehicle Data Set Generator ############################################
+CarGen.Kind = Generator
+CarGen.FName = Small.car
+CarGen.PicFName = Small.tcl
+CarGen.Vehicle.Class = small
+CarGen.Vehicle.Kind = RigidBody
+CarGen.Driving.Axle = fourwheel
+CarGen.Vehicle.Weight = 160.0
+CarGen.Vehicle.Length = 2090.9
+CarGen.Vehicle.Width = 1626.1
+CarGen.Vehicle.Height = 1667.8
+CarGen.Vehicle.WheelBase = 1500.0
+CarGen.Vehicle.TrackFront = 1473.2
+CarGen.Vehicle.TrackRear = 1422.4
+CarGen.Vehicle.RearOverhang = 290.09
+CarGen.Vehicle.WheelSize = 185 65 15
+CarGen.Engine.NomPower = 6.71
+CarGen.Engine.nNomPower = 3600.0
+CarGen.Engine.MaxTorque = 19.2
+CarGen.Engine.nMaxTorque = 2800.0
+CarGen.GearBox.Kind = Auto_Conv
+CarGen.GearBox.nGears = 5.0
+CarGen.GearBox.Spread = 5.1
+CarGen.Steer.TurningCircle = 19.2
+CarGen.Steer.MaxSteerAngle = 58.21
+CarGen.Vehicle.freqf = 1.2
+CarGen.Vehicle.freqr = 1.4
+CarGen.Aero.DragCoeff = 0.578

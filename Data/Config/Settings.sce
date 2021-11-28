@@ -2,7 +2,7 @@
 FileIdent = Scenario-Config 1.0
 FileCreator = CarMaker 10.0
 Scene.Country = DEU
-Scene.Country2 = DEU
+Scene.Country2 =
 Scene.DrivingSide = right
 Import.HDLM.ImportByRoute = 0
 Import.HDLM.LatCoord0 =

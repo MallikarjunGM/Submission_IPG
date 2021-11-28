@@ -178,7 +178,7 @@ Flex.JointFr1Fr1B.d.y = 138.31
 Flex.JointFr1Fr1B.d.x.Amplify = 1.0
 Flex.JointFr1Fr1B.d.y.Amplify = 1.0
 
-Movie.Skin.FName = 80_BajaNitkRacing.obj
+Movie.Skin.FName = 80_BajaNITKRacing_FILES/80_BajaNITKRacing.obj
 Picture.PicFName = 80_BajaNitkRacing.png
 Vehicle.OuterSkin = 0 0.803 0.301 2.084 -0.803 1.59
 
@@ -265,11 +265,8 @@ SuspF.Buf_Pull:
 	0.015 286.38
 	0.02 918.21
 SuspF.Stabi.Kind = Hookean 1
-SuspF.Stabi.Amplify = 0
+SuspF.Stabi.Amplify = 1
 SuspF.Stabi = 1206.9
-
-
-## Additional Parameters #################################################
 SuspF.Kin.N = 1
 SuspF.Com.N = 0
 SuspF.Kin.0.FName = 80_BajaNitkRacing.skc
@@ -318,7 +315,7 @@ SuspR.Buf_Pull:
 	0.02 307.04
 	0.025 802.33
 SuspR.Stabi.Kind = Hookean 1
-SuspR.Stabi.Amplify = 0
+SuspR.Stabi.Amplify = 1
 SuspR.Stabi = 381.45
 SuspR.Kin.N = 1
 SuspR.Com.N = 0
